@@ -1,1 +1,129 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+    
+}
+body
+{
+    background-color: gainsboro;
+    
+}
 
+h1
+{
+    background-color: blueviolet;
+}
+.box
+{
+    width: 50%;
+    
+    border: 1px solid black;
+    border: none;
+    border-radius: 20px;
+ 
+    position: absolute;
+    top: 10%;
+    left:calc(50% - 300px);
+   z-index: 2;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   background-color: white;
+  
+  max-width: 800px;
+ 
+
+
+    
+    
+}
+.whitecolor
+{
+    color: white;
+}
+.text-align-center
+{
+    text-align: center;
+}
+.p-50
+{
+    padding: 50px;
+}
+.border-radius-20
+{
+    
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.p-15
+{
+    padding: 15px;
+}
+.text-grey
+{
+    color: gray;
+}
+.text-whitegrey
+{
+    background-color: lightgray;
+}
+hr
+{
+    border: 0;
+    padding:.5px;
+    background-color: lightgray;
+}
+.m-15
+{
+    margin: 15px;
+}
+.violent-color
+{
+    color: blueviolet;
+}
+.fs-5
+{
+    font-size: large;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left:15px
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram
+{
+    background-color: red;
+}
+.pb-5
+{
+    padding-bottom: 15px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
